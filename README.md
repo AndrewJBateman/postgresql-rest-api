@@ -5,25 +5,25 @@
 ## :books: General info
 
 * PostgreSQL needs to be installed and running - I started it from my Windows 10 PostgreSQL 12 dropdown option 'SQL shell (psql)'
-* Postman used to test the backend
 * PostgreSQL shell commands: `\l` list all databases. `\c database1` connect to database1. `\dt` inspect tables. `\d users` see detail of table with name users. `\q` to quit.
 * Src (source) folder contains raw code in typescript. Dist (distribution) folder will contain minified/concatenated javascript code for production
 
 ## :camera: Screenshots
 
-![screen print](./img/.png)
+![screen print](./img/postman.png)
 
 ## :signal_strength: Technologies
 
 * [tsc --watch command](https://www.typescriptlang.org/docs/handbook/compiler-options.html) used to run local compiler in watch mode
-* [PostgreSQL v12](https://www.postgresql.org/)
+* [PostgreSQL v12](https://www.postgresql.org/) database
 * [PostgreSQL Installer for Windows](https://www.postgresqltutorial.com/install-postgresql/)
 * [Express.js middleware v4](https://expressjs.com/)
-* [Postman](https://www.postman.com/)
+* [Postman](https://www.postman.com/) to perform CRUD operations on backend database
 
 ## :floppy_disk: Setup
 
 * Create PostgreSQL database and add access credentials to your own `src/routes/config.ts` file (not in repo)
+* Add a `/dist` folder at same level as `/src` folder
 * Run `npm install` to install dependencies
 * Run `npm run dev` to compile app and connect to server `localhost: 3000`
 * Run `npm run build` to compile app

@@ -22,7 +22,7 @@
 
 ## :floppy_disk: Setup
 
-* Create PostgreSQL database and add access credentials to your own `src/routes/config.ts` file (not in repo)
+* Create PostgreSQL database and add access credentials to your own `src/routes/config.ts` file (see `config.example.ts`)
 * Add a `/dist` folder at same level as `/src` folder
 * Run `npm install` to install dependencies
 * Run `npm run dev` to compile app and connect to server `localhost: 3000`

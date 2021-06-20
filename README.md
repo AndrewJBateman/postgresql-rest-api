@@ -1,6 +1,25 @@
 # :zap: PostgreSQL Rest API
 
 * App using nodejs with express middleware to connect to a PostgreSQL database and make Create, Read, Update & Delete (CRUD) operations of user data
+* **Note:** to open web links in a new window use: _ctrl+click on link_
+
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/postgresql-rest-api?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/postgresql-rest-api?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/postgresql-rest-api?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/postgresql-rest-api?style=plastic)
+
+## :page_facing_up: Table of contents
+
+* [General info](#general-info)
+* [Screenshots](#screenshots)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Code Examples](#code-examples)
+* [Features](#features)
+* [Status](#status)
+* [Inspiration](#inspiration)
+* [Licence](#licence)
+* [Contact](#contact)
 
 ## :books: General info
 
@@ -60,6 +79,10 @@ export const getUserById = async (
 
 * [Fazt Code: Youtube tutorial in Spanish: Nodejs, PostgreSQL & Typescript, REST API CRUD](https://www.youtube.com/watch?v=z4BNZfZ1Wq8)
 
+## :file_folder: License
+
+* N/A
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
